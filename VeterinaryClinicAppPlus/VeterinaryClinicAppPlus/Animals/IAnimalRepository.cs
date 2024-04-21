@@ -1,4 +1,4 @@
-﻿namespace VeterinaryClinic.Animals; 
+﻿namespace VeterinaryClinicAppPlus.Animals; 
 
 public interface IAnimalRepository {
     IEnumerable<Animal> GetAnimals();

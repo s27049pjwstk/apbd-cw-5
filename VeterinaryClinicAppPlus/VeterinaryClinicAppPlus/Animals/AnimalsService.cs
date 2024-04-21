@@ -1,4 +1,4 @@
-﻿namespace VeterinaryClinic.Animals;
+﻿namespace VeterinaryClinicAppPlus.Animals;
 
 public class AnimalsService : IAnimalsService {
     private readonly IAnimalRepository _animalRepository;

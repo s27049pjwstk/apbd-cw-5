@@ -1,6 +1,0 @@
-@VeterinaryClinicAppPlus_HostAddress = http://localhost:5079
-
-GET {{VeterinaryClinicAppPlus_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

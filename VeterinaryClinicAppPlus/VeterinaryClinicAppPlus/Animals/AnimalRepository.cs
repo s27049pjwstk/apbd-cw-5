@@ -1,6 +1,4 @@
-﻿using System.Data.SqlClient;
-
-namespace VeterinaryClinic.Animals;
+﻿namespace VeterinaryClinicAppPlus.Animals;
 
 public class AnimalRepository : IAnimalRepository {
     private IConfiguration _configuration;

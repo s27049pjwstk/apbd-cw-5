@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace VeterinaryClinic.Animals;
+namespace VeterinaryClinicAppPlus.Animals;
 
 public class Animal {
     public int IdAnimal { get; set; }
