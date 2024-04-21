@@ -1,4 +1,8 @@
-﻿namespace VeterinaryClinicAppPlus.Animals;
+﻿using VeterinaryClinicAppPlus.Models;
+using VeterinaryClinicAppPlus.Repositories;
+
+
+namespace VeterinaryClinicAppPlus.Services;
 
 public class AnimalsService : IAnimalsService {
     private readonly IAnimalRepository _animalRepository;
@@ -7,8 +11,8 @@ public class AnimalsService : IAnimalsService {
         _animalRepository = animalRepository;
     }
 
-    public IEnumerable<Animal> GetAnimals() {
-        return _animalRepository.GetAnimals();
+    public IEnumerable<Animal> GetAnimals(string? orderBy) {
+        return _animalRepository.GetAnimals(orderBy);
     }
 
     public Animal? GetAnimal(int idAnimal) {
